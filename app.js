@@ -10,10 +10,6 @@ const server = http.createServer(function(req,res){
   
 });
 
-server.on('connection', (scocekt) =>{
-console.log("new  connection ");
-});
-
 server.listen(3000);
 
 console.log('started on 3000');

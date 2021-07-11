@@ -14,7 +14,7 @@ server.on('connection', (scocekt) =>{
 console.log("new  connection ");
 });
 
-server.listen(80);
+server.listen(3000);
 
-console.log('started on 80');
+console.log('started on 3000');
 
